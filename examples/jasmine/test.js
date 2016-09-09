@@ -1,5 +1,5 @@
 describe('Set of tests', function () {
-    it('should pass', function () {
+    xit('should pass', function () {
         expect(1).toEqual(1);
     });
 
@@ -8,7 +8,7 @@ describe('Set of tests', function () {
             describe('very', function () {
                 describe('very', function () {
                     describe('nested', function () {
-                        it('spec', function () {
+                        fit('spec', function () {
                             expect(1).toBe(1);
                         })
                     })
@@ -17,7 +17,7 @@ describe('Set of tests', function () {
         })
     });
 
-    it('should fail', function () {
+    xit('should fail', function () {
         expect(1).toBe(1);
         expect(3).toEqual(4);
     })
